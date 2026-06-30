@@ -32,5 +32,12 @@ func move(files map[string]string) error {
 		}
 	}
 	println(Green + "larry finshed and ask you for tip" + Reset)
+	println(` _                          
+| |    __ _ _ __ _ __ _   _ 
+| |   / _` + "`" + ` | '__| '__| | | |
+| |__| (_| | |  | |  | |_| |
+|_____\__,_|_|  |_|   \__, |
+                       |___/
+The file organizer`)
 	return err
 }
